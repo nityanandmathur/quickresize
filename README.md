@@ -1,4 +1,4 @@
-# PyNits
+# Quick Resize
 
 Library for simple utilities
 

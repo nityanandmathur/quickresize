@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 readme = open('README.md').read()
 
 setup(
-    name='pynits',
+    name='quickresize',
     packages=find_packages(),
     version='0.1.0',
     description='In-place resizing of images present in a folder',
@@ -12,7 +12,7 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'resize=pynits.resize:main'
+            'resize=quickresize.resize:main'
         ]
     }
 )
