@@ -1,6 +1,6 @@
 import argparse
 import os
-
+from tqdm import tqdm
 from PIL import Image
 
 
@@ -13,7 +13,7 @@ def resize_images(folder:str = None, resolution:tuple[int] = None):
         2. resolution: resolution of the images to be resized to.
     '''
     paths = os.listdir(folder)
-    for path in paths:
+    for path in tqdm(paths):
         f = Image.open(f'{folder}/{path}')
         f = f.resize(resolution)
         f.save(f'{folder}/{path}')
