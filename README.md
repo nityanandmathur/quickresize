@@ -10,3 +10,5 @@ In-place resizing of images present in a folder
 ```bash
 resize --f <folder name> --r <width> <height>
 ```
+
+## Center Crop
