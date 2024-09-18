@@ -12,3 +12,6 @@ resize --f <folder name> --r <width> <height>
 ```
 
 ## Center Crop
+```bash
+centercrop --f <folder name> --r <width> <height>
+```
